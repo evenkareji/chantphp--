@@ -5,7 +5,6 @@ try
 {
  require_once('../function.php');
 
-
 $post=sanitize($_POST);
 
 $user_name=$post['user'];
